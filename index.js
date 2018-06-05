@@ -2,5 +2,7 @@
 function distanceFromHqInBlocks(n) {
   if (n >= 44) {
     return n-44
+  } else {
+    return 44-n
   }
 }
