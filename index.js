@@ -1,4 +1,4 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks() {
-  
+function distanceFromHqInBlocks(n) {
+  return Math.abs(44-n)
 }
