@@ -18,3 +18,17 @@ function distanceTravelledInFeet(s, e) {
     return (e-s)*264
   }
 }
+
+function calculatesFarePrice(s, e) {
+  let distance = distanceTravelledInFeet(s, e)
+  switch (distance) {
+    case distance <= 400:
+      return 0
+      break;
+    case distance > 400 && distance <=2000:
+      return (distance-400)*2
+      break;
+    default:
+
+  }
+}
