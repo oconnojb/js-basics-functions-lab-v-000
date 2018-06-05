@@ -6,3 +6,7 @@ function distanceFromHqInBlocks(n) {
     return 42-n
   }
 }
+
+function distanceFromHqInFeet(n) {
+  return distanceFromHqInBlocks(n)*264
+}
